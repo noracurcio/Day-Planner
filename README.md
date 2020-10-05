@@ -2,6 +2,8 @@
 # **Description**
 This application successfully stores day planner data to local storage. The application is color coded to reflect the current time of day. The present is shown in red and the future shown in green. 
 
+![Day Planner Demo](/Users/nora/Coding_Boot_Camp/homework/Day-Planner-HW/Day-Planner/Screen Shot 2020-10-05 at 9.54.29 AM.png)
+
 # **Installation**
 N/A
 
