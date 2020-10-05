@@ -1,3 +1,7 @@
+
+
+
+
 $(document).ready(function(){
     function saveButton(){
         var textValue = $(this).siblings(".description").val()
@@ -7,9 +11,11 @@ $(document).ready(function(){
     }
     $(".saveBtn").on("click",saveButton)
 
+
+//This function compares the current time with the time on the application and color coordinates it. 
     function checkTime(){
         var currentHour = moment().hours()
-        console.log(currentHour)
+        // console.log(currentHour)
         $(".time-block").each(function(){
             var id = $(this).attr("id")
             if( id < currentHour){
